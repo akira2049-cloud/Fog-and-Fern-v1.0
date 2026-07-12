@@ -1,0 +1,29 @@
+{
+  "name": "fog-and-fern-sf",
+  "version": "1.0.0",
+  "description": "Dynamic San Francisco plant shop built with Node.js, Express, EJS and SQLite.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Shahrier Shanto",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "better-sqlite3": "^12.2.0",
+    "connect-flash": "^0.1.1",
+    "connect-sqlite3": "^0.9.16",
+    "dotenv": "^17.2.1",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.18.2",
+    "express-validator": "^7.2.1",
+    "method-override": "^3.0.0",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

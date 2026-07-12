@@ -1,0 +1,6 @@
+node_modules/
+.env
+plant-shop.db
+sessions.db
+uploads/products/*
+!uploads/products/.gitkeep
