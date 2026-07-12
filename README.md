@@ -8,7 +8,7 @@ Designed as a professional portfolio project, the system demonstrates modern web
 
 # 📸 Preview
 
-> Add screenshots here after deployment.
+> Screenshots after deployment.
 
 * Home Page
 * Shop Page
