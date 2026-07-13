@@ -1,1 +1,0 @@
-const router=require("express").Router();const c=require("../controllers/accountController");const {requireAuth}=require("../middleware/authMiddleware");router.use(requireAuth);router.get("/",c.dashboard);router.post("/",c.update);router.get("/orders",c.orders);router.get("/orders/:id",c.order);module.exports=router;

@@ -1,1 +1,0 @@
-const router=require("express").Router();const c=require("../controllers/checkoutController");router.get("/",c.index);router.post("/",c.place);router.get("/success/:id",c.success);module.exports=router;

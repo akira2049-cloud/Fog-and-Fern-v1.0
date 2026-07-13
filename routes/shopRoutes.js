@@ -1,1 +1,0 @@
-const router=require("express").Router();const c=require("../controllers/shopController");router.get("/",c.index);router.get("/category/:slug",c.category);router.get("/:slug",c.details);router.post("/:id/reviews",c.review);module.exports=router;
